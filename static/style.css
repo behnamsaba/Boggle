@@ -1,0 +1,42 @@
+h1{
+  color:#EDC951
+}
+body {
+  text-align: center;
+  background-color: teal;
+}
+table{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin:auto
+}
+
+
+tr{background-color: #f2f2f2;}
+tr:hover {background-color: salmon;}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+label{
+  color:purple;
+  font-weight: bolder;
+
+}
+
+form{
+  padding: 20px;
+}
+
+
+#result{
+  font-size: larger;
+  font-weight: bolder;
+  background-color: darkred;
+  width: 50%;
+  margin: auto;
+}

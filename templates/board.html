@@ -1,0 +1,24 @@
+{%extends "base.html"%}
+{%block title%}BOGGLE!{%endblock%}
+{%block content%}
+    <h1>SCORE:</h1>
+    <h1 id="score">{{session["score"]}}</h1>
+    <table>
+            {%for arr in session["game"] %}
+                <tr>
+                {%for word in arr%}
+                    <td>{{word}}</td>
+                {% endfor %}
+                </tr>
+            {% endfor %}
+    </table>
+    <br>
+    <form>
+        <label for="guess">ENTER YOUR GUESS HERE!</label>
+        <input type="text" id="guess" name="guess">
+        <button>Submit</button>
+
+
+    </form>
+
+{%endblock%}
